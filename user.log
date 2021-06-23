@@ -1,0 +1,17 @@
+[WARN] 2021-06-22 14:37:44,529 il.naya.collage.spark.course.bdd.four.Log4JTester - Start Spark application
+[INFO] 2021-06-22 14:38:12,462 il.naya.collage.spark.course.bdd.four.Log4JTester - Start Spark application
+[INFO] 2021-06-22 14:38:14,316 il.naya.collage.spark.course.bdd.four.Log4JTester - Spark application Started successfully
+[INFO] 2021-06-22 14:38:14,316 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 1
+[INFO] 2021-06-22 14:38:15,317 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 2
+[INFO] 2021-06-22 14:38:16,317 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 3
+[INFO] 2021-06-22 14:38:17,318 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 4
+[INFO] 2021-06-22 14:38:18,318 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 5
+[INFO] 2021-06-22 14:38:19,319 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 6
+[INFO] 2021-06-22 14:38:20,319 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 7
+[INFO] 2021-06-22 14:38:21,319 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 8
+[INFO] 2021-06-22 14:38:22,320 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 9
+[INFO] 2021-06-22 14:38:23,320 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 10
+[INFO] 2021-06-22 14:38:24,321 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 11
+[INFO] 2021-06-22 14:38:25,321 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 12
+[INFO] 2021-06-22 14:38:26,321 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 13
+[INFO] 2021-06-22 14:38:27,322 il.naya.collage.spark.course.bdd.four.Log4JTester - Interation number: 14

@@ -1,0 +1,553 @@
+[INFO] 2021-06-22 14:36:11,518 org.apache.spark.SparkContext - Running Spark version 2.4.0
+[INFO] 2021-06-22 14:36:11,919 org.apache.spark.SparkContext - Submitted application: log application
+[INFO] 2021-06-22 14:36:11,989 org.apache.spark.SecurityManager - Changing view acls to: developer
+[INFO] 2021-06-22 14:36:11,989 org.apache.spark.SecurityManager - Changing modify acls to: developer
+[INFO] 2021-06-22 14:36:11,990 org.apache.spark.SecurityManager - Changing view acls groups to: 
+[INFO] 2021-06-22 14:36:11,991 org.apache.spark.SecurityManager - Changing modify acls groups to: 
+[INFO] 2021-06-22 14:36:11,991 org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(developer); groups with view permissions: Set(); users  with modify permissions: Set(developer); groups with modify permissions: Set()
+[INFO] 2021-06-22 14:36:12,427 org.apache.spark.util.Utils - Successfully started service 'sparkDriver' on port 36693.
+[INFO] 2021-06-22 14:36:12,451 org.apache.spark.SparkEnv - Registering MapOutputTracker
+[INFO] 2021-06-22 14:36:12,470 org.apache.spark.SparkEnv - Registering BlockManagerMaster
+[INFO] 2021-06-22 14:36:12,472 org.apache.spark.storage.BlockManagerMasterEndpoint - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2021-06-22 14:36:12,473 org.apache.spark.storage.BlockManagerMasterEndpoint - BlockManagerMasterEndpoint up
+[INFO] 2021-06-22 14:36:12,489 org.apache.spark.storage.DiskBlockManager - Created local directory at /tmp/blockmgr-1bef628a-2f6f-4fcf-ad50-61616f2d581d
+[INFO] 2021-06-22 14:36:12,511 org.apache.spark.storage.memory.MemoryStore - MemoryStore started with capacity 3.2 GB
+[INFO] 2021-06-22 14:36:12,522 org.apache.spark.SparkEnv - Registering OutputCommitCoordinator
+[WARN] 2021-06-22 14:36:12,678 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[WARN] 2021-06-22 14:36:12,679 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[INFO] 2021-06-22 14:36:12,684 org.apache.spark.util.Utils - Successfully started service 'SparkUI' on port 4042.
+[INFO] 2021-06-22 14:36:12,737 org.apache.spark.ui.SparkUI - Bound SparkUI to 0.0.0.0, and started at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:36:12,809 org.apache.spark.executor.Executor - Starting executor ID driver on host localhost
+[INFO] 2021-06-22 14:36:12,905 org.apache.spark.util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41271.
+[INFO] 2021-06-22 14:36:12,907 org.apache.spark.network.netty.NettyBlockTransferService - Server created on aa2f4ff33a66:41271
+[INFO] 2021-06-22 14:36:12,908 org.apache.spark.storage.BlockManager - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2021-06-22 14:36:12,931 org.apache.spark.storage.BlockManagerMaster - Registering BlockManager BlockManagerId(driver, aa2f4ff33a66, 41271, None)
+[INFO] 2021-06-22 14:36:12,933 org.apache.spark.storage.BlockManagerMasterEndpoint - Registering block manager aa2f4ff33a66:41271 with 3.2 GB RAM, BlockManagerId(driver, aa2f4ff33a66, 41271, None)
+[INFO] 2021-06-22 14:36:12,936 org.apache.spark.storage.BlockManagerMaster - Registered BlockManager BlockManagerId(driver, aa2f4ff33a66, 41271, None)
+[INFO] 2021-06-22 14:36:12,937 org.apache.spark.storage.BlockManager - Initialized BlockManager: BlockManagerId(driver, aa2f4ff33a66, 41271, None)
+[INFO] 2021-06-22 14:36:43,163 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:36:43,171 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2021-06-22 14:36:43,196 org.apache.spark.storage.memory.MemoryStore - MemoryStore cleared
+[INFO] 2021-06-22 14:36:43,197 org.apache.spark.storage.BlockManager - BlockManager stopped
+[INFO] 2021-06-22 14:36:43,198 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
+[INFO] 2021-06-22 14:36:43,202 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+[INFO] 2021-06-22 14:36:43,210 org.apache.spark.SparkContext - Successfully stopped SparkContext
+[INFO] 2021-06-22 14:36:43,212 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
+[INFO] 2021-06-22 14:36:43,213 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/spark-9eefd9d3-ab79-42eb-81d6-9584236552f2
+[INFO] 2021-06-22 14:37:44,879 org.apache.spark.SparkContext - Running Spark version 2.4.0
+[INFO] 2021-06-22 14:37:45,299 org.apache.spark.SparkContext - Submitted application: log application
+[INFO] 2021-06-22 14:37:45,360 org.apache.spark.SecurityManager - Changing view acls to: developer
+[INFO] 2021-06-22 14:37:45,361 org.apache.spark.SecurityManager - Changing modify acls to: developer
+[INFO] 2021-06-22 14:37:45,361 org.apache.spark.SecurityManager - Changing view acls groups to: 
+[INFO] 2021-06-22 14:37:45,361 org.apache.spark.SecurityManager - Changing modify acls groups to: 
+[INFO] 2021-06-22 14:37:45,362 org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(developer); groups with view permissions: Set(); users  with modify permissions: Set(developer); groups with modify permissions: Set()
+[INFO] 2021-06-22 14:37:45,754 org.apache.spark.util.Utils - Successfully started service 'sparkDriver' on port 45123.
+[INFO] 2021-06-22 14:37:45,772 org.apache.spark.SparkEnv - Registering MapOutputTracker
+[INFO] 2021-06-22 14:37:45,787 org.apache.spark.SparkEnv - Registering BlockManagerMaster
+[INFO] 2021-06-22 14:37:45,789 org.apache.spark.storage.BlockManagerMasterEndpoint - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2021-06-22 14:37:45,789 org.apache.spark.storage.BlockManagerMasterEndpoint - BlockManagerMasterEndpoint up
+[INFO] 2021-06-22 14:37:45,802 org.apache.spark.storage.DiskBlockManager - Created local directory at /tmp/blockmgr-c61c0e94-2d38-44bc-9598-d50d097bff74
+[INFO] 2021-06-22 14:37:45,819 org.apache.spark.storage.memory.MemoryStore - MemoryStore started with capacity 3.2 GB
+[INFO] 2021-06-22 14:37:45,828 org.apache.spark.SparkEnv - Registering OutputCommitCoordinator
+[WARN] 2021-06-22 14:37:45,963 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[WARN] 2021-06-22 14:37:45,964 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[INFO] 2021-06-22 14:37:45,968 org.apache.spark.util.Utils - Successfully started service 'SparkUI' on port 4042.
+[INFO] 2021-06-22 14:37:46,017 org.apache.spark.ui.SparkUI - Bound SparkUI to 0.0.0.0, and started at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:37:46,090 org.apache.spark.executor.Executor - Starting executor ID driver on host localhost
+[INFO] 2021-06-22 14:37:46,165 org.apache.spark.util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46457.
+[INFO] 2021-06-22 14:37:46,165 org.apache.spark.network.netty.NettyBlockTransferService - Server created on aa2f4ff33a66:46457
+[INFO] 2021-06-22 14:37:46,166 org.apache.spark.storage.BlockManager - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2021-06-22 14:37:46,187 org.apache.spark.storage.BlockManagerMaster - Registering BlockManager BlockManagerId(driver, aa2f4ff33a66, 46457, None)
+[INFO] 2021-06-22 14:37:46,190 org.apache.spark.storage.BlockManagerMasterEndpoint - Registering block manager aa2f4ff33a66:46457 with 3.2 GB RAM, BlockManagerId(driver, aa2f4ff33a66, 46457, None)
+[INFO] 2021-06-22 14:37:46,194 org.apache.spark.storage.BlockManagerMaster - Registered BlockManager BlockManagerId(driver, aa2f4ff33a66, 46457, None)
+[INFO] 2021-06-22 14:37:46,195 org.apache.spark.storage.BlockManager - Initialized BlockManager: BlockManagerId(driver, aa2f4ff33a66, 46457, None)
+[INFO] 2021-06-22 14:38:09,921 org.apache.spark.SparkContext - Invoking stop() from shutdown hook
+[INFO] 2021-06-22 14:38:09,930 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:38:09,945 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2021-06-22 14:38:09,956 org.apache.spark.storage.memory.MemoryStore - MemoryStore cleared
+[INFO] 2021-06-22 14:38:09,956 org.apache.spark.storage.BlockManager - BlockManager stopped
+[INFO] 2021-06-22 14:38:09,957 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
+[INFO] 2021-06-22 14:38:09,959 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+[INFO] 2021-06-22 14:38:09,964 org.apache.spark.SparkContext - Successfully stopped SparkContext
+[INFO] 2021-06-22 14:38:09,965 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
+[INFO] 2021-06-22 14:38:09,965 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/spark-bdd7375a-0bd2-4f4a-9698-df1cb4daf68e
+[INFO] 2021-06-22 14:38:12,767 org.apache.spark.SparkContext - Running Spark version 2.4.0
+[INFO] 2021-06-22 14:38:13,211 org.apache.spark.SparkContext - Submitted application: log application
+[INFO] 2021-06-22 14:38:13,280 org.apache.spark.SecurityManager - Changing view acls to: developer
+[INFO] 2021-06-22 14:38:13,280 org.apache.spark.SecurityManager - Changing modify acls to: developer
+[INFO] 2021-06-22 14:38:13,281 org.apache.spark.SecurityManager - Changing view acls groups to: 
+[INFO] 2021-06-22 14:38:13,281 org.apache.spark.SecurityManager - Changing modify acls groups to: 
+[INFO] 2021-06-22 14:38:13,281 org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(developer); groups with view permissions: Set(); users  with modify permissions: Set(developer); groups with modify permissions: Set()
+[INFO] 2021-06-22 14:38:13,656 org.apache.spark.util.Utils - Successfully started service 'sparkDriver' on port 39475.
+[INFO] 2021-06-22 14:38:13,679 org.apache.spark.SparkEnv - Registering MapOutputTracker
+[INFO] 2021-06-22 14:38:13,691 org.apache.spark.SparkEnv - Registering BlockManagerMaster
+[INFO] 2021-06-22 14:38:13,694 org.apache.spark.storage.BlockManagerMasterEndpoint - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2021-06-22 14:38:13,694 org.apache.spark.storage.BlockManagerMasterEndpoint - BlockManagerMasterEndpoint up
+[INFO] 2021-06-22 14:38:13,711 org.apache.spark.storage.DiskBlockManager - Created local directory at /tmp/blockmgr-0a87a722-bf3a-4af8-ab98-2015aa0e4fff
+[INFO] 2021-06-22 14:38:13,727 org.apache.spark.storage.memory.MemoryStore - MemoryStore started with capacity 3.2 GB
+[INFO] 2021-06-22 14:38:13,738 org.apache.spark.SparkEnv - Registering OutputCommitCoordinator
+[WARN] 2021-06-22 14:38:13,879 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[WARN] 2021-06-22 14:38:13,879 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[INFO] 2021-06-22 14:38:13,884 org.apache.spark.util.Utils - Successfully started service 'SparkUI' on port 4042.
+[INFO] 2021-06-22 14:38:13,937 org.apache.spark.ui.SparkUI - Bound SparkUI to 0.0.0.0, and started at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:38:14,009 org.apache.spark.executor.Executor - Starting executor ID driver on host localhost
+[INFO] 2021-06-22 14:38:14,091 org.apache.spark.util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36049.
+[INFO] 2021-06-22 14:38:14,093 org.apache.spark.network.netty.NettyBlockTransferService - Server created on aa2f4ff33a66:36049
+[INFO] 2021-06-22 14:38:14,095 org.apache.spark.storage.BlockManager - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2021-06-22 14:38:14,123 org.apache.spark.storage.BlockManagerMaster - Registering BlockManager BlockManagerId(driver, aa2f4ff33a66, 36049, None)
+[INFO] 2021-06-22 14:38:14,125 org.apache.spark.storage.BlockManagerMasterEndpoint - Registering block manager aa2f4ff33a66:36049 with 3.2 GB RAM, BlockManagerId(driver, aa2f4ff33a66, 36049, None)
+[INFO] 2021-06-22 14:38:14,127 org.apache.spark.storage.BlockManagerMaster - Registered BlockManager BlockManagerId(driver, aa2f4ff33a66, 36049, None)
+[INFO] 2021-06-22 14:38:14,128 org.apache.spark.storage.BlockManager - Initialized BlockManager: BlockManagerId(driver, aa2f4ff33a66, 36049, None)
+[INFO] 2021-06-22 14:38:27,927 org.apache.spark.SparkContext - Invoking stop() from shutdown hook
+[INFO] 2021-06-22 14:38:27,934 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:38:27,947 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2021-06-22 14:38:27,957 org.apache.spark.storage.memory.MemoryStore - MemoryStore cleared
+[INFO] 2021-06-22 14:38:27,957 org.apache.spark.storage.BlockManager - BlockManager stopped
+[INFO] 2021-06-22 14:38:27,960 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
+[INFO] 2021-06-22 14:38:27,962 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+[INFO] 2021-06-22 14:38:27,968 org.apache.spark.SparkContext - Successfully stopped SparkContext
+[INFO] 2021-06-22 14:38:27,968 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
+[INFO] 2021-06-22 14:38:27,969 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/spark-859e1389-90b0-44bb-be6f-9065e573f78f
+[INFO] 2021-06-22 14:43:44,364 org.apache.spark.SparkContext - Running Spark version 2.4.0
+[INFO] 2021-06-22 14:43:44,763 org.apache.spark.SparkContext - Submitted application: Shutdown Hook
+[INFO] 2021-06-22 14:43:44,836 org.apache.spark.SecurityManager - Changing view acls to: developer,hdfs
+[INFO] 2021-06-22 14:43:44,837 org.apache.spark.SecurityManager - Changing modify acls to: developer,hdfs
+[INFO] 2021-06-22 14:43:44,837 org.apache.spark.SecurityManager - Changing view acls groups to: 
+[INFO] 2021-06-22 14:43:44,837 org.apache.spark.SecurityManager - Changing modify acls groups to: 
+[INFO] 2021-06-22 14:43:44,838 org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(developer, hdfs); groups with view permissions: Set(); users  with modify permissions: Set(developer, hdfs); groups with modify permissions: Set()
+[INFO] 2021-06-22 14:43:45,222 org.apache.spark.util.Utils - Successfully started service 'sparkDriver' on port 46577.
+[INFO] 2021-06-22 14:43:45,242 org.apache.spark.SparkEnv - Registering MapOutputTracker
+[INFO] 2021-06-22 14:43:45,254 org.apache.spark.SparkEnv - Registering BlockManagerMaster
+[INFO] 2021-06-22 14:43:45,257 org.apache.spark.storage.BlockManagerMasterEndpoint - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2021-06-22 14:43:45,257 org.apache.spark.storage.BlockManagerMasterEndpoint - BlockManagerMasterEndpoint up
+[INFO] 2021-06-22 14:43:45,278 org.apache.spark.storage.DiskBlockManager - Created local directory at /tmp/blockmgr-9d0bb2ee-f54f-4479-bd26-c76087f34095
+[INFO] 2021-06-22 14:43:45,295 org.apache.spark.storage.memory.MemoryStore - MemoryStore started with capacity 3.2 GB
+[INFO] 2021-06-22 14:43:45,310 org.apache.spark.SparkEnv - Registering OutputCommitCoordinator
+[WARN] 2021-06-22 14:43:45,437 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[WARN] 2021-06-22 14:43:45,437 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[INFO] 2021-06-22 14:43:45,442 org.apache.spark.util.Utils - Successfully started service 'SparkUI' on port 4042.
+[INFO] 2021-06-22 14:43:45,491 org.apache.spark.ui.SparkUI - Bound SparkUI to 0.0.0.0, and started at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:43:45,562 org.apache.spark.executor.Executor - Starting executor ID driver on host localhost
+[INFO] 2021-06-22 14:43:45,641 org.apache.spark.util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33613.
+[INFO] 2021-06-22 14:43:45,642 org.apache.spark.network.netty.NettyBlockTransferService - Server created on aa2f4ff33a66:33613
+[INFO] 2021-06-22 14:43:45,644 org.apache.spark.storage.BlockManager - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2021-06-22 14:43:45,666 org.apache.spark.storage.BlockManagerMaster - Registering BlockManager BlockManagerId(driver, aa2f4ff33a66, 33613, None)
+[INFO] 2021-06-22 14:43:45,668 org.apache.spark.storage.BlockManagerMasterEndpoint - Registering block manager aa2f4ff33a66:33613 with 3.2 GB RAM, BlockManagerId(driver, aa2f4ff33a66, 33613, None)
+[INFO] 2021-06-22 14:43:45,670 org.apache.spark.storage.BlockManagerMaster - Registered BlockManager BlockManagerId(driver, aa2f4ff33a66, 33613, None)
+[INFO] 2021-06-22 14:43:45,671 org.apache.spark.storage.BlockManager - Initialized BlockManager: BlockManagerId(driver, aa2f4ff33a66, 33613, None)
+[INFO] 2021-06-22 14:43:45,875 org.apache.spark.sql.internal.SharedState - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/developer/IdeaProjects/spark-course-java-scala/spark-warehouse').
+[INFO] 2021-06-22 14:43:45,875 org.apache.spark.sql.internal.SharedState - Warehouse path is 'file:/home/developer/IdeaProjects/spark-course-java-scala/spark-warehouse'.
+[INFO] 2021-06-22 14:43:46,365 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef - Registered StateStoreCoordinator endpoint
+[INFO] 2021-06-22 14:43:48,088 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Starting [id = 6758e113-e7d1-4a9d-8c80-77d6242046cf, runId = 0946fdae-69b6-4898-b827-001691b44469]. Use hdfs://hdfs:8020/checkpoints/shutdown_hook to store the query checkpoint.
+[INFO] 2021-06-22 14:43:48,097 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Using MicroBatchReader [KafkaV2[Subscribe[my-topic]]] from DataSourceV2 named 'kafka' [org.apache.spark.sql.kafka010.KafkaSourceProvider@17b025ec]
+[INFO] 2021-06-22 14:43:48,143 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Resuming at batch 1 with committed offsets {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}} and available offsets {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}}
+[INFO] 2021-06-22 14:43:48,143 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Stream started from {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}}
+[INFO] 2021-06-22 14:43:48,416 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Writing atomically to hdfs://hdfs:8020/checkpoints/shutdown_hook/offsets/1 using temp file hdfs://hdfs:8020/checkpoints/shutdown_hook/offsets/.1.eb4ab009-9193-47b4-883e-a6a1a79118c8.tmp
+[INFO] 2021-06-22 14:43:48,498 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Renamed temp file hdfs://hdfs:8020/checkpoints/shutdown_hook/offsets/.1.eb4ab009-9193-47b4-883e-a6a1a79118c8.tmp to hdfs://hdfs:8020/checkpoints/shutdown_hook/offsets/1
+[INFO] 2021-06-22 14:43:48,500 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Committed offsets for batch 1. Metadata OffsetSeqMetadata(0,1624373028394,Map(spark.sql.streaming.stateStore.providerClass -> org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider, spark.sql.streaming.flatMapGroupsWithState.stateFormatVersion -> 2, spark.sql.streaming.multipleWatermarkPolicy -> min, spark.sql.streaming.aggregation.stateFormatVersion -> 2, spark.sql.shuffle.partitions -> 200))
+[INFO] 2021-06-22 14:43:48,613 org.apache.spark.scheduler.DAGScheduler - Asked to cancel job group 0946fdae-69b6-4898-b827-001691b44469
+[INFO] 2021-06-22 14:43:48,614 org.apache.spark.SparkContext - Invoking stop() from shutdown hook
+[INFO] 2021-06-22 14:43:48,622 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:43:48,629 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2021-06-22 14:43:48,637 org.apache.spark.storage.memory.MemoryStore - MemoryStore cleared
+[INFO] 2021-06-22 14:43:48,637 org.apache.spark.storage.BlockManager - BlockManager stopped
+[INFO] 2021-06-22 14:43:48,640 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
+[INFO] 2021-06-22 14:43:48,642 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+[INFO] 2021-06-22 14:43:48,652 org.apache.spark.SparkContext - Successfully stopped SparkContext
+[INFO] 2021-06-22 14:43:48,652 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
+[INFO] 2021-06-22 14:43:48,653 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/temporaryReader-a666cb16-7622-4de0-83a8-17a8e740860e
+[INFO] 2021-06-22 14:43:48,656 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/spark-5a5f7f9c-83c2-4ba3-95dc-d319eb6a1529
+[INFO] 2021-06-22 14:43:48,751 org.apache.spark.sql.kafka010.KafkaMicroBatchReader - Partitions added: Map()
+[ERROR] 2021-06-22 14:43:48,761 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Query [id = 6758e113-e7d1-4a9d-8c80-77d6242046cf, runId = 0946fdae-69b6-4898-b827-001691b44469] terminated with error
+java.lang.NullPointerException
+	at org.apache.spark.sql.kafka010.KafkaMicroBatchReader.getSortedExecutorList(KafkaMicroBatchReader.scala:248)
+	at org.apache.spark.sql.kafka010.KafkaMicroBatchReader.planInputPartitions(KafkaMicroBatchReader.scala:139)
+	at org.apache.spark.sql.execution.datasources.v2.DataSourceV2ScanExec.partitions$lzycompute(DataSourceV2ScanExec.scala:76)
+	at org.apache.spark.sql.execution.datasources.v2.DataSourceV2ScanExec.partitions(DataSourceV2ScanExec.scala:75)
+	at org.apache.spark.sql.execution.datasources.v2.DataSourceV2ScanExec.outputPartitioning(DataSourceV2ScanExec.scala:65)
+	at org.apache.spark.sql.execution.exchange.EnsureRequirements$$anonfun$org$apache$spark$sql$execution$exchange$EnsureRequirements$$ensureDistributionAndOrdering$1.apply(EnsureRequirements.scala:150)
+	at org.apache.spark.sql.execution.exchange.EnsureRequirements$$anonfun$org$apache$spark$sql$execution$exchange$EnsureRequirements$$ensureDistributionAndOrdering$1.apply(EnsureRequirements.scala:149)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+	at scala.collection.immutable.List.map(List.scala:296)
+	at org.apache.spark.sql.execution.exchange.EnsureRequirements.org$apache$spark$sql$execution$exchange$EnsureRequirements$$ensureDistributionAndOrdering(EnsureRequirements.scala:149)
+	at org.apache.spark.sql.execution.exchange.EnsureRequirements$$anonfun$apply$1.applyOrElse(EnsureRequirements.scala:304)
+	at org.apache.spark.sql.execution.exchange.EnsureRequirements$$anonfun$apply$1.applyOrElse(EnsureRequirements.scala:296)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+	at org.apache.spark.sql.execution.exchange.EnsureRequirements.apply(EnsureRequirements.scala:296)
+	at org.apache.spark.sql.execution.exchange.EnsureRequirements.apply(EnsureRequirements.scala:38)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$prepareForExecution$1.apply(QueryExecution.scala:87)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$prepareForExecution$1.apply(QueryExecution.scala:87)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.apache.spark.sql.execution.QueryExecution.prepareForExecution(QueryExecution.scala:87)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan$lzycompute(QueryExecution.scala:77)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:77)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution$$anonfun$org$apache$spark$sql$execution$streaming$MicroBatchExecution$$runBatch$4.apply(MicroBatchExecution.scala:525)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution$$anonfun$org$apache$spark$sql$execution$streaming$MicroBatchExecution$$runBatch$4.apply(MicroBatchExecution.scala:516)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter$class.reportTimeTaken(ProgressReporter.scala:351)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:58)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.org$apache$spark$sql$execution$streaming$MicroBatchExecution$$runBatch(MicroBatchExecution.scala:516)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution$$anonfun$runActivatedStream$1$$anonfun$apply$mcZ$sp$1.apply$mcV$sp(MicroBatchExecution.scala:198)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution$$anonfun$runActivatedStream$1$$anonfun$apply$mcZ$sp$1.apply(MicroBatchExecution.scala:166)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution$$anonfun$runActivatedStream$1$$anonfun$apply$mcZ$sp$1.apply(MicroBatchExecution.scala:166)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter$class.reportTimeTaken(ProgressReporter.scala:351)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:58)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution$$anonfun$runActivatedStream$1.apply$mcZ$sp(MicroBatchExecution.scala:166)
+	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:56)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:160)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:279)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:189)
+[WARN] 2021-06-22 14:43:48,775 org.apache.spark.rpc.netty.NettyRpcEnv - Ignored failure: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@2ac1af67 rejected from java.util.concurrent.ScheduledThreadPoolExecutor@7a631027[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[INFO] 2021-06-22 14:44:04,151 org.apache.spark.SparkContext - Running Spark version 2.4.0
+[INFO] 2021-06-22 14:44:04,513 org.apache.spark.SparkContext - Submitted application: Shutdown Hook
+[INFO] 2021-06-22 14:44:04,567 org.apache.spark.SecurityManager - Changing view acls to: developer,hdfs
+[INFO] 2021-06-22 14:44:04,568 org.apache.spark.SecurityManager - Changing modify acls to: developer,hdfs
+[INFO] 2021-06-22 14:44:04,568 org.apache.spark.SecurityManager - Changing view acls groups to: 
+[INFO] 2021-06-22 14:44:04,568 org.apache.spark.SecurityManager - Changing modify acls groups to: 
+[INFO] 2021-06-22 14:44:04,569 org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(developer, hdfs); groups with view permissions: Set(); users  with modify permissions: Set(developer, hdfs); groups with modify permissions: Set()
+[INFO] 2021-06-22 14:44:04,887 org.apache.spark.util.Utils - Successfully started service 'sparkDriver' on port 42859.
+[INFO] 2021-06-22 14:44:04,905 org.apache.spark.SparkEnv - Registering MapOutputTracker
+[INFO] 2021-06-22 14:44:04,917 org.apache.spark.SparkEnv - Registering BlockManagerMaster
+[INFO] 2021-06-22 14:44:04,920 org.apache.spark.storage.BlockManagerMasterEndpoint - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2021-06-22 14:44:04,920 org.apache.spark.storage.BlockManagerMasterEndpoint - BlockManagerMasterEndpoint up
+[INFO] 2021-06-22 14:44:04,931 org.apache.spark.storage.DiskBlockManager - Created local directory at /tmp/blockmgr-15f29035-c803-4303-b446-c74e3575b3f8
+[INFO] 2021-06-22 14:44:04,953 org.apache.spark.storage.memory.MemoryStore - MemoryStore started with capacity 3.2 GB
+[INFO] 2021-06-22 14:44:04,963 org.apache.spark.SparkEnv - Registering OutputCommitCoordinator
+[WARN] 2021-06-22 14:44:05,077 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[WARN] 2021-06-22 14:44:05,078 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[INFO] 2021-06-22 14:44:05,081 org.apache.spark.util.Utils - Successfully started service 'SparkUI' on port 4042.
+[INFO] 2021-06-22 14:44:05,123 org.apache.spark.ui.SparkUI - Bound SparkUI to 0.0.0.0, and started at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:44:05,211 org.apache.spark.executor.Executor - Starting executor ID driver on host localhost
+[INFO] 2021-06-22 14:44:05,283 org.apache.spark.util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41839.
+[INFO] 2021-06-22 14:44:05,283 org.apache.spark.network.netty.NettyBlockTransferService - Server created on aa2f4ff33a66:41839
+[INFO] 2021-06-22 14:44:05,284 org.apache.spark.storage.BlockManager - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2021-06-22 14:44:05,302 org.apache.spark.storage.BlockManagerMaster - Registering BlockManager BlockManagerId(driver, aa2f4ff33a66, 41839, None)
+[INFO] 2021-06-22 14:44:05,305 org.apache.spark.storage.BlockManagerMasterEndpoint - Registering block manager aa2f4ff33a66:41839 with 3.2 GB RAM, BlockManagerId(driver, aa2f4ff33a66, 41839, None)
+[INFO] 2021-06-22 14:44:05,306 org.apache.spark.storage.BlockManagerMaster - Registered BlockManager BlockManagerId(driver, aa2f4ff33a66, 41839, None)
+[INFO] 2021-06-22 14:44:05,307 org.apache.spark.storage.BlockManager - Initialized BlockManager: BlockManagerId(driver, aa2f4ff33a66, 41839, None)
+[INFO] 2021-06-22 14:44:05,513 org.apache.spark.sql.internal.SharedState - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/developer/IdeaProjects/spark-course-java-scala/spark-warehouse').
+[INFO] 2021-06-22 14:44:05,513 org.apache.spark.sql.internal.SharedState - Warehouse path is 'file:/home/developer/IdeaProjects/spark-course-java-scala/spark-warehouse'.
+[INFO] 2021-06-22 14:44:05,996 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef - Registered StateStoreCoordinator endpoint
+[INFO] 2021-06-22 14:44:07,643 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Starting [id = 6758e113-e7d1-4a9d-8c80-77d6242046cf, runId = 66b57ab8-f3cd-43b2-b048-213d7cce7698]. Use hdfs://hdfs:8020/checkpoints/shutdown_hook to store the query checkpoint.
+[INFO] 2021-06-22 14:44:07,648 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Using MicroBatchReader [KafkaV2[Subscribe[my-topic]]] from DataSourceV2 named 'kafka' [org.apache.spark.sql.kafka010.KafkaSourceProvider@3bfb7250]
+[INFO] 2021-06-22 14:44:07,703 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Resuming at batch 1 with committed offsets {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}} and available offsets {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":4000}}}
+[INFO] 2021-06-22 14:44:07,703 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Stream started from {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}}
+[INFO] 2021-06-22 14:44:07,940 org.apache.spark.sql.kafka010.KafkaMicroBatchReader - Partitions added: Map()
+[INFO] 2021-06-22 14:44:08,237 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator - Code generated in 152.9302 ms
+[INFO] 2021-06-22 14:44:08,417 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator - Code generated in 17.2169 ms
+[INFO] 2021-06-22 14:44:08,472 org.apache.spark.sql.execution.datasources.v2.WriteToDataSourceV2Exec - Start processing data source writer: org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@aff938d. The input RDD has 1 partitions.
+[INFO] 2021-06-22 14:44:08,483 org.apache.spark.SparkContext - Starting job: start at ShutdownHook.java:34
+[INFO] 2021-06-22 14:44:08,500 org.apache.spark.scheduler.DAGScheduler - Got job 0 (start at ShutdownHook.java:34) with 1 output partitions
+[INFO] 2021-06-22 14:44:08,501 org.apache.spark.scheduler.DAGScheduler - Final stage: ResultStage 0 (start at ShutdownHook.java:34)
+[INFO] 2021-06-22 14:44:08,501 org.apache.spark.scheduler.DAGScheduler - Parents of final stage: List()
+[INFO] 2021-06-22 14:44:08,503 org.apache.spark.scheduler.DAGScheduler - Missing parents: List()
+[INFO] 2021-06-22 14:44:08,507 org.apache.spark.scheduler.DAGScheduler - Submitting ResultStage 0 (MapPartitionsRDD[1] at start at ShutdownHook.java:34), which has no missing parents
+[INFO] 2021-06-22 14:44:08,573 org.apache.spark.storage.memory.MemoryStore - Block broadcast_0 stored as values in memory (estimated size 6.0 KB, free 3.2 GB)
+[INFO] 2021-06-22 14:44:08,602 org.apache.spark.storage.memory.MemoryStore - Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.3 KB, free 3.2 GB)
+[INFO] 2021-06-22 14:44:08,604 org.apache.spark.storage.BlockManagerInfo - Added broadcast_0_piece0 in memory on aa2f4ff33a66:41839 (size: 3.3 KB, free: 3.2 GB)
+[INFO] 2021-06-22 14:44:08,605 org.apache.spark.SparkContext - Created broadcast 0 from broadcast at DAGScheduler.scala:1161
+[INFO] 2021-06-22 14:44:08,618 org.apache.spark.scheduler.DAGScheduler - Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at start at ShutdownHook.java:34) (first 15 tasks are for partitions Vector(0))
+[INFO] 2021-06-22 14:44:08,619 org.apache.spark.scheduler.TaskSchedulerImpl - Adding task set 0.0 with 1 tasks
+[INFO] 2021-06-22 14:44:08,657 org.apache.spark.scheduler.TaskSetManager - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 8718 bytes)
+[INFO] 2021-06-22 14:44:08,667 org.apache.spark.executor.Executor - Running task 0.0 in stage 0.0 (TID 0)
+[INFO] 2021-06-22 14:44:08,827 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator - Code generated in 14.8209 ms
+[INFO] 2021-06-22 14:44:09,223 org.apache.spark.sql.execution.datasources.v2.DataWritingSparkTask - Commit authorized for partition 0 (task 0, attempt 0stage 0.0)
+[INFO] 2021-06-22 14:44:09,225 org.apache.spark.sql.execution.datasources.v2.DataWritingSparkTask - Committed partition 0 (task 0, attempt 0stage 0.0)
+[INFO] 2021-06-22 14:44:09,234 org.apache.spark.executor.Executor - Finished task 0.0 in stage 0.0 (TID 0). 1096 bytes result sent to driver
+[INFO] 2021-06-22 14:44:09,239 org.apache.spark.scheduler.TaskSetManager - Finished task 0.0 in stage 0.0 (TID 0) in 593 ms on localhost (executor driver) (1/1)
+[INFO] 2021-06-22 14:44:09,241 org.apache.spark.scheduler.TaskSchedulerImpl - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO] 2021-06-22 14:44:09,245 org.apache.spark.scheduler.DAGScheduler - ResultStage 0 (start at ShutdownHook.java:34) finished in 0.728 s
+[INFO] 2021-06-22 14:44:09,248 org.apache.spark.scheduler.DAGScheduler - Job 0 finished: start at ShutdownHook.java:34, took 0.763920 s
+[INFO] 2021-06-22 14:44:09,250 org.apache.spark.sql.execution.datasources.v2.WriteToDataSourceV2Exec - Data source writer org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@aff938d is committing.
+[INFO] 2021-06-22 14:44:09,250 org.apache.spark.sql.execution.datasources.v2.WriteToDataSourceV2Exec - Data source writer org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@aff938d committed.
+[INFO] 2021-06-22 14:44:09,267 org.apache.spark.SparkContext - Starting job: start at ShutdownHook.java:34
+[INFO] 2021-06-22 14:44:09,267 org.apache.spark.scheduler.DAGScheduler - Job 1 finished: start at ShutdownHook.java:34, took 0.000053 s
+[INFO] 2021-06-22 14:44:09,291 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Writing atomically to hdfs://hdfs:8020/checkpoints/shutdown_hook/commits/1 using temp file hdfs://hdfs:8020/checkpoints/shutdown_hook/commits/.1.f698ecf8-4df4-45f7-acb1-f46fe869d5b5.tmp
+[INFO] 2021-06-22 14:44:09,375 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Renamed temp file hdfs://hdfs:8020/checkpoints/shutdown_hook/commits/.1.f698ecf8-4df4-45f7-acb1-f46fe869d5b5.tmp to hdfs://hdfs:8020/checkpoints/shutdown_hook/commits/1
+[INFO] 2021-06-22 14:44:09,400 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Streaming query made progress: {
+  "id" : "6758e113-e7d1-4a9d-8c80-77d6242046cf",
+  "runId" : "66b57ab8-f3cd-43b2-b048-213d7cce7698",
+  "name" : null,
+  "timestamp" : "2021-06-22T14:44:07.654Z",
+  "batchId" : 1,
+  "numInputRows" : 2000,
+  "processedRowsPerSecond" : 1160.7661056297156,
+  "durationMs" : {
+    "addBatch" : 1317,
+    "getBatch" : 42,
+    "queryPlanning" : 199,
+    "triggerExecution" : 1723
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "KafkaV2[Subscribe[my-topic]]",
+    "startOffset" : {
+      "my-topic" : {
+        "0" : 2000
+      }
+    },
+    "endOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "numInputRows" : 2000,
+    "processedRowsPerSecond" : 1160.7661056297156
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.kafka010.KafkaSourceProvider@4e4099ce"
+  }
+}
+[INFO] 2021-06-22 14:44:09,443 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Streaming query made progress: {
+  "id" : "6758e113-e7d1-4a9d-8c80-77d6242046cf",
+  "runId" : "66b57ab8-f3cd-43b2-b048-213d7cce7698",
+  "name" : null,
+  "timestamp" : "2021-06-22T14:44:09.400Z",
+  "batchId" : 2,
+  "numInputRows" : 0,
+  "inputRowsPerSecond" : 0.0,
+  "processedRowsPerSecond" : 0.0,
+  "durationMs" : {
+    "getEndOffset" : 1,
+    "setOffsetRange" : 37,
+    "triggerExecution" : 42
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "KafkaV2[Subscribe[my-topic]]",
+    "startOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "endOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "numInputRows" : 0,
+    "inputRowsPerSecond" : 0.0,
+    "processedRowsPerSecond" : 0.0
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.kafka010.KafkaSourceProvider@4e4099ce"
+  }
+}
+[INFO] 2021-06-22 14:44:12,754 org.apache.spark.scheduler.DAGScheduler - Asked to cancel job group 66b57ab8-f3cd-43b2-b048-213d7cce7698
+[INFO] 2021-06-22 14:44:12,756 org.apache.spark.SparkContext - Invoking stop() from shutdown hook
+[INFO] 2021-06-22 14:44:12,765 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:44:12,775 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2021-06-22 14:44:12,775 org.apache.spark.SparkContext - SparkContext already stopped.
+[INFO] 2021-06-22 14:44:12,784 org.apache.spark.storage.memory.MemoryStore - MemoryStore cleared
+[INFO] 2021-06-22 14:44:12,785 org.apache.spark.storage.BlockManager - BlockManager stopped
+[INFO] 2021-06-22 14:44:12,789 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
+[INFO] 2021-06-22 14:44:12,790 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+[INFO] 2021-06-22 14:44:12,797 org.apache.spark.SparkContext - Successfully stopped SparkContext
+[INFO] 2021-06-22 14:44:12,797 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
+[INFO] 2021-06-22 14:44:12,798 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/temporaryReader-086cb06a-6781-4441-afcc-b8deaa470e3c
+[INFO] 2021-06-22 14:44:12,800 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/spark-bfae837a-5217-41e5-a34d-bb6913049e78
+[INFO] 2021-06-22 14:45:43,746 org.apache.spark.SparkContext - Running Spark version 2.4.0
+[INFO] 2021-06-22 14:45:44,683 org.apache.spark.SparkContext - Submitted application: File Listener
+[INFO] 2021-06-22 14:45:44,835 org.apache.spark.SecurityManager - Changing view acls to: developer,hdfs
+[INFO] 2021-06-22 14:45:44,836 org.apache.spark.SecurityManager - Changing modify acls to: developer,hdfs
+[INFO] 2021-06-22 14:45:44,837 org.apache.spark.SecurityManager - Changing view acls groups to: 
+[INFO] 2021-06-22 14:45:44,838 org.apache.spark.SecurityManager - Changing modify acls groups to: 
+[INFO] 2021-06-22 14:45:44,839 org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(developer, hdfs); groups with view permissions: Set(); users  with modify permissions: Set(developer, hdfs); groups with modify permissions: Set()
+[INFO] 2021-06-22 14:45:45,606 org.apache.spark.util.Utils - Successfully started service 'sparkDriver' on port 35517.
+[INFO] 2021-06-22 14:45:45,647 org.apache.spark.SparkEnv - Registering MapOutputTracker
+[INFO] 2021-06-22 14:45:45,671 org.apache.spark.SparkEnv - Registering BlockManagerMaster
+[INFO] 2021-06-22 14:45:45,675 org.apache.spark.storage.BlockManagerMasterEndpoint - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2021-06-22 14:45:45,676 org.apache.spark.storage.BlockManagerMasterEndpoint - BlockManagerMasterEndpoint up
+[INFO] 2021-06-22 14:45:45,701 org.apache.spark.storage.DiskBlockManager - Created local directory at /tmp/blockmgr-831a618d-5cef-40cc-8b98-43eefce76755
+[INFO] 2021-06-22 14:45:45,735 org.apache.spark.storage.memory.MemoryStore - MemoryStore started with capacity 3.2 GB
+[INFO] 2021-06-22 14:45:45,759 org.apache.spark.SparkEnv - Registering OutputCommitCoordinator
+[WARN] 2021-06-22 14:45:46,029 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[WARN] 2021-06-22 14:45:46,030 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[INFO] 2021-06-22 14:45:46,038 org.apache.spark.util.Utils - Successfully started service 'SparkUI' on port 4042.
+[INFO] 2021-06-22 14:45:46,127 org.apache.spark.ui.SparkUI - Bound SparkUI to 0.0.0.0, and started at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:45:46,243 org.apache.spark.executor.Executor - Starting executor ID driver on host localhost
+[INFO] 2021-06-22 14:45:46,381 org.apache.spark.util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34449.
+[INFO] 2021-06-22 14:45:46,382 org.apache.spark.network.netty.NettyBlockTransferService - Server created on aa2f4ff33a66:34449
+[INFO] 2021-06-22 14:45:46,385 org.apache.spark.storage.BlockManager - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2021-06-22 14:45:46,432 org.apache.spark.storage.BlockManagerMaster - Registering BlockManager BlockManagerId(driver, aa2f4ff33a66, 34449, None)
+[INFO] 2021-06-22 14:45:46,436 org.apache.spark.storage.BlockManagerMasterEndpoint - Registering block manager aa2f4ff33a66:34449 with 3.2 GB RAM, BlockManagerId(driver, aa2f4ff33a66, 34449, None)
+[INFO] 2021-06-22 14:45:46,440 org.apache.spark.storage.BlockManagerMaster - Registered BlockManager BlockManagerId(driver, aa2f4ff33a66, 34449, None)
+[INFO] 2021-06-22 14:45:46,441 org.apache.spark.storage.BlockManager - Initialized BlockManager: BlockManagerId(driver, aa2f4ff33a66, 34449, None)
+[INFO] 2021-06-22 14:45:46,808 org.apache.spark.sql.internal.SharedState - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/developer/IdeaProjects/spark-course-java-scala/spark-warehouse').
+[INFO] 2021-06-22 14:45:46,810 org.apache.spark.sql.internal.SharedState - Warehouse path is 'file:/home/developer/IdeaProjects/spark-course-java-scala/spark-warehouse'.
+[INFO] 2021-06-22 14:45:47,671 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef - Registered StateStoreCoordinator endpoint
+[INFO] 2021-06-22 14:45:50,337 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Starting [id = 317fc6d8-101f-4f18-b25b-8d0cd41006f9, runId = f08bb015-7325-4655-aa86-41ed2d5405d0]. Use hdfs://hdfs:8020/checkpoints/file_listener to store the query checkpoint.
+[INFO] 2021-06-22 14:45:50,358 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Using MicroBatchReader [KafkaV2[Subscribe[my-topic]]] from DataSourceV2 named 'kafka' [org.apache.spark.sql.kafka010.KafkaSourceProvider@ed234cd]
+[INFO] 2021-06-22 14:45:50,429 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Resuming at batch 1 with committed offsets {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}} and available offsets {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}}
+[INFO] 2021-06-22 14:45:50,429 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Stream started from {KafkaV2[Subscribe[my-topic]]: {"my-topic":{"0":2000}}}
+[INFO] 2021-06-22 14:45:50,783 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Writing atomically to hdfs://hdfs:8020/checkpoints/file_listener/offsets/1 using temp file hdfs://hdfs:8020/checkpoints/file_listener/offsets/.1.82fe3336-6a3b-457b-bcdf-e8beac1645bc.tmp
+[INFO] 2021-06-22 14:45:50,899 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Renamed temp file hdfs://hdfs:8020/checkpoints/file_listener/offsets/.1.82fe3336-6a3b-457b-bcdf-e8beac1645bc.tmp to hdfs://hdfs:8020/checkpoints/file_listener/offsets/1
+[INFO] 2021-06-22 14:45:50,901 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Committed offsets for batch 1. Metadata OffsetSeqMetadata(0,1624373150752,Map(spark.sql.streaming.stateStore.providerClass -> org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider, spark.sql.streaming.flatMapGroupsWithState.stateFormatVersion -> 2, spark.sql.streaming.multipleWatermarkPolicy -> min, spark.sql.streaming.aggregation.stateFormatVersion -> 2, spark.sql.shuffle.partitions -> 200))
+[INFO] 2021-06-22 14:45:51,213 org.apache.spark.sql.kafka010.KafkaMicroBatchReader - Partitions added: Map()
+[INFO] 2021-06-22 14:45:51,683 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator - Code generated in 258.5181 ms
+[INFO] 2021-06-22 14:45:52,024 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator - Code generated in 32.7422 ms
+[INFO] 2021-06-22 14:45:52,106 org.apache.spark.sql.execution.datasources.v2.WriteToDataSourceV2Exec - Start processing data source writer: org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@72a987a1. The input RDD has 1 partitions.
+[INFO] 2021-06-22 14:45:52,125 org.apache.spark.SparkContext - Starting job: start at FileListener.java:37
+[INFO] 2021-06-22 14:45:52,144 org.apache.spark.scheduler.DAGScheduler - Got job 0 (start at FileListener.java:37) with 1 output partitions
+[INFO] 2021-06-22 14:45:52,146 org.apache.spark.scheduler.DAGScheduler - Final stage: ResultStage 0 (start at FileListener.java:37)
+[INFO] 2021-06-22 14:45:52,146 org.apache.spark.scheduler.DAGScheduler - Parents of final stage: List()
+[INFO] 2021-06-22 14:45:52,148 org.apache.spark.scheduler.DAGScheduler - Missing parents: List()
+[INFO] 2021-06-22 14:45:52,153 org.apache.spark.scheduler.DAGScheduler - Submitting ResultStage 0 (MapPartitionsRDD[1] at start at FileListener.java:37), which has no missing parents
+[INFO] 2021-06-22 14:45:52,239 org.apache.spark.storage.memory.MemoryStore - Block broadcast_0 stored as values in memory (estimated size 6.0 KB, free 3.2 GB)
+[INFO] 2021-06-22 14:45:52,277 org.apache.spark.storage.memory.MemoryStore - Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.3 KB, free 3.2 GB)
+[INFO] 2021-06-22 14:45:52,280 org.apache.spark.storage.BlockManagerInfo - Added broadcast_0_piece0 in memory on aa2f4ff33a66:34449 (size: 3.3 KB, free: 3.2 GB)
+[INFO] 2021-06-22 14:45:52,283 org.apache.spark.SparkContext - Created broadcast 0 from broadcast at DAGScheduler.scala:1161
+[INFO] 2021-06-22 14:45:52,301 org.apache.spark.scheduler.DAGScheduler - Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at start at FileListener.java:37) (first 15 tasks are for partitions Vector(0))
+[INFO] 2021-06-22 14:45:52,303 org.apache.spark.scheduler.TaskSchedulerImpl - Adding task set 0.0 with 1 tasks
+[INFO] 2021-06-22 14:45:52,362 org.apache.spark.scheduler.TaskSetManager - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 8718 bytes)
+[INFO] 2021-06-22 14:45:52,373 org.apache.spark.executor.Executor - Running task 0.0 in stage 0.0 (TID 0)
+[INFO] 2021-06-22 14:45:52,504 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator - Code generated in 18.1053 ms
+[INFO] 2021-06-22 14:45:52,789 org.apache.spark.sql.execution.datasources.v2.DataWritingSparkTask - Commit authorized for partition 0 (task 0, attempt 0stage 0.0)
+[INFO] 2021-06-22 14:45:52,791 org.apache.spark.sql.execution.datasources.v2.DataWritingSparkTask - Committed partition 0 (task 0, attempt 0stage 0.0)
+[INFO] 2021-06-22 14:45:52,811 org.apache.spark.executor.Executor - Finished task 0.0 in stage 0.0 (TID 0). 1139 bytes result sent to driver
+[INFO] 2021-06-22 14:45:52,822 org.apache.spark.scheduler.TaskSetManager - Finished task 0.0 in stage 0.0 (TID 0) in 481 ms on localhost (executor driver) (1/1)
+[INFO] 2021-06-22 14:45:52,826 org.apache.spark.scheduler.TaskSchedulerImpl - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO] 2021-06-22 14:45:52,835 org.apache.spark.scheduler.DAGScheduler - ResultStage 0 (start at FileListener.java:37) finished in 0.665 s
+[INFO] 2021-06-22 14:45:52,843 org.apache.spark.scheduler.DAGScheduler - Job 0 finished: start at FileListener.java:37, took 0.717246 s
+[INFO] 2021-06-22 14:45:52,846 org.apache.spark.sql.execution.datasources.v2.WriteToDataSourceV2Exec - Data source writer org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@72a987a1 is committing.
+[INFO] 2021-06-22 14:45:52,847 org.apache.spark.sql.execution.datasources.v2.WriteToDataSourceV2Exec - Data source writer org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@72a987a1 committed.
+[INFO] 2021-06-22 14:45:52,867 org.apache.spark.SparkContext - Starting job: start at FileListener.java:37
+[INFO] 2021-06-22 14:45:52,867 org.apache.spark.scheduler.DAGScheduler - Job 1 finished: start at FileListener.java:37, took 0.000050 s
+[INFO] 2021-06-22 14:45:52,882 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Writing atomically to hdfs://hdfs:8020/checkpoints/file_listener/commits/1 using temp file hdfs://hdfs:8020/checkpoints/file_listener/commits/.1.b979e920-49ca-4964-ba3e-14dfba5811d8.tmp
+[INFO] 2021-06-22 14:45:52,920 org.apache.spark.sql.execution.streaming.CheckpointFileManager - Renamed temp file hdfs://hdfs:8020/checkpoints/file_listener/commits/.1.b979e920-49ca-4964-ba3e-14dfba5811d8.tmp to hdfs://hdfs:8020/checkpoints/file_listener/commits/1
+[INFO] 2021-06-22 14:45:52,954 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Streaming query made progress: {
+  "id" : "317fc6d8-101f-4f18-b25b-8d0cd41006f9",
+  "runId" : "f08bb015-7325-4655-aa86-41ed2d5405d0",
+  "name" : null,
+  "timestamp" : "2021-06-22T14:45:50.369Z",
+  "batchId" : 1,
+  "numInputRows" : 2000,
+  "processedRowsPerSecond" : 783.6990595611285,
+  "durationMs" : {
+    "addBatch" : 1635,
+    "getBatch" : 8,
+    "getEndOffset" : 0,
+    "queryPlanning" : 303,
+    "setOffsetRange" : 318,
+    "triggerExecution" : 2551,
+    "walCommit" : 155
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "KafkaV2[Subscribe[my-topic]]",
+    "startOffset" : {
+      "my-topic" : {
+        "0" : 2000
+      }
+    },
+    "endOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "numInputRows" : 2000,
+    "processedRowsPerSecond" : 783.6990595611285
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.kafka010.KafkaSourceProvider@1f5d5976"
+  }
+}
+[INFO] 2021-06-22 14:45:52,960 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Streaming query made progress: {
+  "id" : "317fc6d8-101f-4f18-b25b-8d0cd41006f9",
+  "runId" : "f08bb015-7325-4655-aa86-41ed2d5405d0",
+  "name" : null,
+  "timestamp" : "2021-06-22T14:45:52.955Z",
+  "batchId" : 2,
+  "numInputRows" : 0,
+  "inputRowsPerSecond" : 0.0,
+  "processedRowsPerSecond" : 0.0,
+  "durationMs" : {
+    "getEndOffset" : 1,
+    "setOffsetRange" : 2,
+    "triggerExecution" : 4
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "KafkaV2[Subscribe[my-topic]]",
+    "startOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "endOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "numInputRows" : 0,
+    "inputRowsPerSecond" : 0.0,
+    "processedRowsPerSecond" : 0.0
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.kafka010.KafkaSourceProvider@1f5d5976"
+  }
+}
+[INFO] 2021-06-22 14:46:02,960 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Streaming query made progress: {
+  "id" : "317fc6d8-101f-4f18-b25b-8d0cd41006f9",
+  "runId" : "f08bb015-7325-4655-aa86-41ed2d5405d0",
+  "name" : null,
+  "timestamp" : "2021-06-22T14:46:02.959Z",
+  "batchId" : 2,
+  "numInputRows" : 0,
+  "inputRowsPerSecond" : 0.0,
+  "durationMs" : {
+    "getEndOffset" : 0,
+    "setOffsetRange" : 0,
+    "triggerExecution" : 0
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "KafkaV2[Subscribe[my-topic]]",
+    "startOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "endOffset" : {
+      "my-topic" : {
+        "0" : 4000
+      }
+    },
+    "numInputRows" : 0,
+    "inputRowsPerSecond" : 0.0
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.kafka010.KafkaSourceProvider@1f5d5976"
+  }
+}
+[INFO] 2021-06-22 14:46:06,413 org.apache.spark.scheduler.DAGScheduler - Asked to cancel job group f08bb015-7325-4655-aa86-41ed2d5405d0
+[INFO] 2021-06-22 14:46:06,430 org.apache.spark.scheduler.DAGScheduler - Asked to cancel job group f08bb015-7325-4655-aa86-41ed2d5405d0
+[INFO] 2021-06-22 14:46:06,431 org.apache.spark.sql.execution.streaming.MicroBatchExecution - Query [id = 317fc6d8-101f-4f18-b25b-8d0cd41006f9, runId = f08bb015-7325-4655-aa86-41ed2d5405d0] was stopped
+[INFO] 2021-06-22 14:46:06,437 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://aa2f4ff33a66:4042
+[INFO] 2021-06-22 14:46:06,443 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2021-06-22 14:46:06,451 org.apache.spark.storage.memory.MemoryStore - MemoryStore cleared
+[INFO] 2021-06-22 14:46:06,452 org.apache.spark.storage.BlockManager - BlockManager stopped
+[INFO] 2021-06-22 14:46:06,452 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
+[INFO] 2021-06-22 14:46:06,454 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+[INFO] 2021-06-22 14:46:06,461 org.apache.spark.SparkContext - Successfully stopped SparkContext
+[INFO] 2021-06-22 14:46:06,463 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
+[INFO] 2021-06-22 14:46:06,464 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/temporaryReader-b3f6857b-fb01-4be3-ab1c-fecfc2ffca2b
+[INFO] 2021-06-22 14:46:06,466 org.apache.spark.util.ShutdownHookManager - Deleting directory /tmp/spark-173914c1-8d5c-4298-868e-713bccd724c1
